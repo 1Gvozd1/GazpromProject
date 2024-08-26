@@ -1,46 +1,55 @@
-# Веб-приложение для отображения таблицы данных
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5&pause=100000&center=true&vCenter=true&width=1024&lines=GazpromProject)](https://git.io/typing-svg)
 
-## Описание решения
+📖 The web application is designed to conveniently display the data table page by page, providing a smooth user experience without the need to reload the page. Data is loaded from an external file, processed and stored in a database, from where it is then displayed on the screen as a convenient table. The project architecture is built to support high flexibility and modularity, making it easy to add new features and scale the solution in the future.
 
-### Технологический стек
+<h2> 🧰 Languages and Tools </h2>
 
-Для создания веб-приложения, которое постранично отображает данные таблицы без перезагрузки страницы, был выбран следующий стек технологий:
+<img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+<img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+<img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" />
+<img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" />
+<img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webpack/webpack-original.svg" />
+<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" />
+<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" />
+<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" />
+          
+          
 
-- **Backend**: 
-  - **Express** — легковесный фреймворк для создания RESTful API на Node.js.
-  - **Prisma** — ORM для взаимодействия с базой данных, обеспечивающая типизацию и удобную работу с данными.
-  - **SQLite** — Легковесная реляционная база данных, используемая для хранения данных.
-  
-- **Frontend**: 
-  - **React** — библиотека для создания интерактивных пользовательских интерфейсов.
-  - **Redux Toolkit** с **RTK Query** — для управления состоянием приложения и выполнения асинхронных запросов к серверу.
-  - **Material UI** — библиотека компонентов.
-  - **Feature-Sliced Design (FSD)** 
 
-### Серверная часть
+<br/>
 
-На серверной стороне используется **Express**, который предоставляет API для получения данных из базы. Данные загружаются из предоставленного CSV-файла и сохраняются в базу данных с использованием **Prisma**. В целях оптимизации и удобства работы используются только первые пять столбцов таблицы.\
+<h2> 📱 Interface </h2>
 
-### Клиентская часть
+<h3> 🏠 Home page  </h3>
 
-Фронтенд приложения разработан на **React** с использованием **Redux Toolkit** для управления состоянием и организации API-запросов через **RTK Query**.
+<img src="images/MarkdownImage_1.png" />
 
-Для создания современного и удобного пользовательского интерфейса используется **Material UI**. Библиотека предоставляет готовые компоненты.
 
-### Архитектура проекта
+<h3> ⏳ The River of Time </h3>
 
-Проект организован в соответствии с подходом **Feature-Sliced Design (FSD)**, что обеспечивает модульность и масштабируемость.
+<img  src="images/MarkdownImage_2.png" />
 
-## Инструкция по запуску проекта
 
-### Шаги по запуску
+<h3> 🃏 Training card </h3>
 
-1. **Запуск приложения**:
-    Для сборки и запуска контейнеров используйте `docker-compose up --build`
+<img  src="images/MarkdownImage_3.png" />
 
-2. **Доступ к приложению**:
-    После успешного запуска контейнеров:
-    - Приложение будет доступен по адресу: `http://127.0.0.1:8085`
+<h3> 🗺️ Map page </h3>
 
-3. **Остановка контейнеров**:
-    Для остановки и удаления контейнеров выполните: `docker-compose down`
+<img src="images/MarkdownImage_4.png" />
+
+
+<h3> 👨‍💼 Profile page </h3>
+
+<img  src="images/MarkdownImage_5.png" />
+
+
+<h3> ✍🏼 Create training card </h3>
+
+<img  src="images/MarkdownImage_6.png" />
+
+<br />
+
+
+
+
