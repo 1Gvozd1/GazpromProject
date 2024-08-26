@@ -1,0 +1,47 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x"] 
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Data {
+  id                   Int        @id @default(autoincrement())
+  articleid            String
+  subarticleid         String
+  articlename          String
+  external_str_id      String
+  ecrlongname          String
+  ecrsectionid         String
+  sectionname          String
+  articlebarcode       String
+  unitname             String
+  sectiontype          String
+  rest                 String
+  flgbase              String
+  subarticlebarcode    String
+  flg_disable          String
+  flg_disable_name     String
+  preparemoment_name   String
+  baseprice            String
+  ecological_class     String
+  articletype          String
+  article_type_name    String
+  tax_system           String
+  tag_1212             String
+  tag_1162             String
+  tag_1162_name        String
+  subarticle_marking   String
+  subarticle_marking_name String
+  has_any_bc_marking   String
+  has_mrc              String
+  isloto               String
+  class_path           String
+  strpath              String
+}
