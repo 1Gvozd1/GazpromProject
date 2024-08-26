@@ -14,42 +14,17 @@
 <img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" />
           
           
-
-
 <br/>
 
 <h2> 📱 Interface </h2>
 
 <h3> 🏠 Home page  </h3>
 
-<img src="images/MarkdownImage_1.png" />
+<img src="images/MarkdownImage_1.png.png" />
 
 
-<h3> ⏳ The River of Time </h3>
+<h3> 📋 The Table </h3>
 
-<img  src="images/MarkdownImage_2.png" />
-
-
-<h3> 🃏 Training card </h3>
-
-<img  src="images/MarkdownImage_3.png" />
-
-<h3> 🗺️ Map page </h3>
-
-<img src="images/MarkdownImage_4.png" />
-
-
-<h3> 👨‍💼 Profile page </h3>
-
-<img  src="images/MarkdownImage_5.png" />
-
-
-<h3> ✍🏼 Create training card </h3>
-
-<img  src="images/MarkdownImage_6.png" />
-
-<br />
-
-
+<img  src="images/MarkdownImage_2.png.png" />
 
 
